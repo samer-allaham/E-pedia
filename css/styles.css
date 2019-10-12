@@ -1,0 +1,33 @@
+body{
+    background-color: rosybrown;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(128, 109, 179, 0.781)
+}
+nav a{
+    color: rgb(65, 3, 44);
+    text-decoration: none;
+
+}
+h2 {
+    color: rgb(7, 105, 28);
+
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    
+
+    }
+/* problems to fix:
+-center the header 
+- add pictures 
+- add teams 
+- nav li should be horizontal 
+- add text colors
+*/
+
