@@ -1,28 +1,58 @@
-body{
-    background-color: rosybrown;
-}
+
+   
+    
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
 
 header h1{
     text-align: center;
     font-size: 50px;
-    color: rgba(128, 109, 179, 0.781)
+    color: rgba(11, 3, 36, 0.781)
 }
 nav a{
-    color: rgb(65, 3, 44);
+    color: rgb(56, 20, 44);
     text-decoration: none;
+
+}
+#java{
+text-align: right;
+color: rgb(14, 74, 82);
+
+position: absolute;
+top: 80px;
+right:20px;
+width: 200px;
+height: 100px;
 
 }
 h2 {
-    color: rgb(7, 105, 28);
+    color: rgb(2, 43, 11);
 
     text-decoration: none;
+
 }
 
 li {
     display: inline-block;
     
 
-    }
+}
+a{  text-decoration: none;
+    color: rgb(49, 5, 49);
+}
+footer{color: rgb(65, 44, 5);}
+
+
+
+
+script{ 
+   color: lightblue;
+}
+
+
 /* problems to fix:
 -center the header 
 - add pictures 
