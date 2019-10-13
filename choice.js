@@ -21,7 +21,3 @@ var game=function () {
 
 document.write(game())
 
-
-
-
-

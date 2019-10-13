@@ -7,3 +7,4 @@ var output;
     else {output='Here you can become one!';   
     }
     document.write('<h3>'+ output +'</h3>')
+    
