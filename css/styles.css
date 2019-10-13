@@ -1,27 +1,52 @@
 
-   
+
+section {
+    display:inline;
+    background-color: rgba(130, 121, 156, 0.712);
+    font-size: larger;
     
-    body {
-        background-image: url("choice.js");
+   }
+
+
+
+
+head{ background-color: rgba(135, 127, 161, 0.315);
+
+   }
+main {background-color: rgba(135, 127, 161, 0.315);
+   }
+    
+body {
+        /* background-image: url("choice.js"); */
         background-repeat: no-repeat;
         background-size: cover;
-          
+        background-color: rgba(135, 127, 161, 0.315);
+
+
       }
+h3{
+        background-color: rgba(54, 49, 68, 0.568);
+
+    }
 
 
 header h1{
+    
     text-align: center;
     font-size: 50px;
-    color: rgba(11, 3, 36, 0.781)
+    color: rgba(7, 2, 24, 0.979);
+    background-color: rgba(54, 49, 68, 0.568);
+   
 }
 nav a{
     color: rgb(56, 20, 44);
     text-decoration: none;
+    background-color: rgba(25, 8, 78, 0.315);
 
 }
 #java{
 text-align: right;
-color: rgb(14, 74, 82);
+color: rgb(157, 211, 211);
 
 position: absolute;
 top: 80px;
@@ -34,8 +59,10 @@ h2 {
     color: rgb(2, 43, 11);
 
     text-decoration: none;
+    background-color:rgba(59, 59, 61, 0.822);
 
 }
+
 
 li {
     display: inline-block;
@@ -45,7 +72,11 @@ li {
 a{  text-decoration: none;
     color: rgb(49, 5, 49);
 }
-footer{color: rgb(65, 44, 5);}
+footer{color: rgb(206, 197, 182);
+    background-color:rgba(4, 4, 53, 0.705);
+    font-size: 20px;
+    text-align: center;
+}
 
 
 
