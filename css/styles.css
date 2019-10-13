@@ -2,8 +2,10 @@
    
     
     body {
+        background-image: url("choice.js");
         background-repeat: no-repeat;
         background-size: cover;
+          
       }
 
 
@@ -50,6 +52,8 @@ footer{color: rgb(65, 44, 5);}
 
 script{ 
    color: lightblue;
+   
+  
 }
 
 
