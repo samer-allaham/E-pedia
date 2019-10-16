@@ -1,4 +1,6 @@
-
+element.styl{
+    background-size: contain;
+}
 
 section {
     display:inline;
@@ -19,10 +21,10 @@ main {background-color: rgba(135, 127, 161, 0.315);
 body {
         /* background-image: url("choice.js"); */
         background-repeat: no-repeat;
-        background-size: cover;
+        
         background-color: rgba(135, 127, 161, 0.315);
 
-
+        background-size: contain;
       }
 h3{
         background-color: rgba(54, 49, 68, 0.568);
