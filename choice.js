@@ -19,13 +19,13 @@ var game=function () {
   // for (var i=0;i<man;i=i+1){
   
   if (choice === 'dota 2') {
-    document.body.style.background = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjJGpgeoO2WuinRo-PCWlRmUrm8P1C8hHdJwqP6WXG0Ap_gpb')";
+    document.body.style.background.css(' background-repeat', 'no-repeat') = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjJGpgeoO2WuinRo-PCWlRmUrm8P1C8hHdJwqP6WXG0Ap_gpb')";
   } else if (choice === 'lol' ) {
     document.body.style.background = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruMIbK1GKXa40gnEtWqRAdLZsGmfjlR8deFfbdpuljLzx2WDsEg')";
   }
-  return background;
+  console.log('hello',background)
+  // return background;
    }
-  
   // }
 document.write(game());
 
